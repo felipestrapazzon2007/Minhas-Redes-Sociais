@@ -1,0 +1,51 @@
+@font-face {
+        font-family: Felipe;
+        src: url('Fresh\ Fruit.ttf');
+}
+
+
+:root {
+        --cor-fundo: #FFD3BD; 
+        --cor-titulo: #FF919E;
+        --cor-parágrafo: #B3937F;
+        --cor-link:#FF919E;
+        --cor-borda:#FF919E;
+        --fonte-principal: Felipe; 
+}
+
+
+body {
+        background-color: var(--cor-fundo);
+        font-family: var(--fonte-principal);
+        width: 500px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+h1 {
+        color: var(--cor-titulo)
+}
+
+p {
+        color: var(--cor-parágrafo);
+        text-align: justify;
+}
+
+ul li a {
+        color: var(--cor-link)
+}
+
+div {
+        text-align: center;
+}
+
+img { 
+        border-radius: 50%;
+        background-color: var(--cor-borda);
+        border: 5px;
+        border-color: var(--cor-borda);
+        border-style: solid;
+        
+
+}
